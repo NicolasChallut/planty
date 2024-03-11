@@ -10,4 +10,32 @@ Version: 4.6.3.1706785621
 Updated: 2024-02-01 11:07:01
 
 */
+#ast-hf-menu-2 a.menu-link{    
+height: 80px;
+padding-top: 15px;
 
+}
+
+.ast-desktop .ast-primary-header-bar.main-header-bar {
+    padding:0 ;
+}
+
+#masthead .ast-container {
+    padding-right:0 ;
+    height: 80px;
+}
+
+#astra-footer-menu {
+    height: 60px;
+    padding: 19px;
+}
+
+ form p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+span.wpcf7-form-control-wrap{
+    border-radius: 7px;
+}
