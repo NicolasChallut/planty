@@ -10,6 +10,11 @@ Version: 4.6.3.1706785621
 Updated: 2024-02-01 11:07:01
 
 */
+
+body{
+font-family: syne;
+}
+
 #ast-hf-menu-2 a.menu-link{    
 height: 80px;
 padding-top: 15px;
@@ -30,12 +35,69 @@ padding-top: 15px;
     padding: 19px;
 }
 
+.equipe{
+    width: 100%;
+    height: 554px;
+}
+
+.avis{
+height: 415px;
+}
+
  form p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 383px;
+    
 }
 
-span.wpcf7-form-control-wrap{
+input .wpcf7-form-control.{
+    width: 383px;
+    margin: 0;
+    
+}
+
+
+
+ input.wpcf7-form-control {
+    height: 55px;
+    width: 198px;
+}
+
+input.wpcf7-form-control{
     border-radius: 7px;
+}
+
+.wpcf7-form-control{
+    border-radius: 7px;
+}
+
+figure.wp-block-image.size-full{
+    margin: 0px;
+}
+
+span.wpcf7-spinner{
+    width: 0;
+    margin:0;
+}
+
+div.site-below-footer-wrap.ast-builder-grid-row-container.site-footer-focus-item.ast-builder-grid-row-full.ast-builder-grid-row-tablet-full .ast-builder-grid-row-mobile-full.ast-footer-row-inline.ast-footer-row-tablet-stack.ast-footer-row-mobile-stack{
+    margin: 0;
+}
+
+footer{
+    height: 60px;
+}
+
+div.site-below-footer-wrap .ast-builder-grid-row-container .site-footer-focus-item .ast-builder-grid-row-full .ast-builder-grid-row-tablet-full .ast-builder-grid-row-mobile-full .ast-footer-row-inline .ast-footer-row-tablet-stack .ast-footer-row-mobile-stack{
+    margin: 0;
+}
+
+.cannettes{
+    background-color: white;
+}
+
+#5985{
+    background-color: green;
 }
