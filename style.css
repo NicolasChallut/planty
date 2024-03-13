@@ -30,6 +30,46 @@ body{
     height: 80px;
 }
 /***Header/***/
+
+/***Home***/
+
+.brancheG{
+    width: 349.19px;
+    height: 400.08px;
+    
+    
+}
+
+.canette{
+    width: auto;
+    height: 618px;
+    background-color: transparent;
+
+}
+
+.brancheD{
+    width: 349.19px;
+height: 400.08px;
+
+}
+
+.rectangle6{
+    
+   box-shadow: #E3D9D0; 
+   
+}
+
+
+.avis{
+    height: 415px;
+}
+
+.canettes{
+    background-color: white;
+}
+
+/***Home/***/
+
 #astra-footer-menu {
     height: 60px;
     padding: 19px;
@@ -77,14 +117,7 @@ span.wpcf7-spinner{
 }
 /***'Nous rencontrez'/***/ 
 
-/***Home***/
-.avis{
-    height: 415px;
-}
 
-
-
-/***Home/***/
 div.site-below-footer-wrap.ast-builder-grid-row-container.site-footer-focus-item.ast-builder-grid-row-full.ast-builder-grid-row-tablet-full .ast-builder-grid-row-mobile-full.ast-footer-row-inline.ast-footer-row-tablet-stack.ast-footer-row-mobile-stack{
     margin: 0;
 }
@@ -95,7 +128,5 @@ div.site-below-footer-wrap .ast-builder-grid-row-container .site-footer-focus-it
     margin: 0;
 }
 
-.canettes{
-    background-color: white;
-}
+
 
