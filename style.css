@@ -11,9 +11,9 @@ Updated: 2024-02-01 11:07:01
 
 */
 
-body{
-    font-family: syne;
-}
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+/* Import de la font syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
+
 /***Header***/
 #ast-hf-menu-2 a.menu-link{    
     height: 80px;
@@ -30,6 +30,30 @@ body{
     height: 80px;
 }
 /***Header/***/
+
+/***footer***/
+.footer-nav-widgets-wrapper {
+    padding: 20px;
+    background-color: #fff !important;
+}
+
+.footer-nav-widgets-wrapper .widgettitle,
+.footer-nav-widgets-wrapper .menu {
+    text-align: center;
+}
+
+
+#site-footer {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    color: #6d6d6d;
+    background-color: #fff !important;
+}
+
+
+/***footer/***/
+
 
 /***Home***/
 
@@ -80,13 +104,7 @@ height: 400.08px;
     height: 554px;
 }
 
-form p{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 383px;
-    
-}
+
 
 input .wpcf7-form-control.{
     width: 383px;
@@ -128,5 +146,70 @@ div.site-below-footer-wrap .ast-builder-grid-row-container .site-footer-focus-it
     margin: 0;
 }
 
+/***Commander***/
 
+.page-id-5616, .post-5616 {
+    background-color:#3B8E46 !important;
+    color: white;
+    
+}
 
+article.post-5616{
+    padding: 0px !important;
+}
+
+.galerie{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap ;
+    justify-content:center;
+    align-items: center !important;
+}
+
+.vignette{
+    width: 192.533px;
+    height: 128.355px;
+}
+
+.nombre{
+    display: flex;
+    align-items:center ;
+    border-radius:0 !important ;
+    width: 39px  !important ;
+    height: 56px !important;
+    margin: 10px !important;
+    
+}
+
+.gout{
+    display: flex !important;
+    padding:10px;
+    align-content: center;
+    width: 192.533px
+
+    
+}
+
+.colonnes{
+    display: flex;
+    flex-flow: wrap column;
+    align-content: center;
+    height: 447px;
+
+}
+
+.informations{
+    border-right:1px solid #fff;
+    height: 447px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.livraison {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 447px;
+}
