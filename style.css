@@ -29,30 +29,21 @@ Updated: 2024-02-01 11:07:01
     padding-right:0 ;
     height: 80px;
 }
-/***Header/***/
+/***END Header/***/
 
 /***footer***/
-.footer-nav-widgets-wrapper {
-    padding: 20px;
-    background-color: #fff !important;
-}
-
-.footer-nav-widgets-wrapper .widgettitle,
-.footer-nav-widgets-wrapper .menu {
-    text-align: center;
-}
 
 
-#site-footer {
+.site-footer {
     display: flex;
-    padding: 20px;
+    padding: 20px !important;
     text-align: center;
-    color: #6d6d6d;
     background-color: #fff !important;
+    height: 60px !important;
 }
 
 
-/***footer/***/
+/***END footer/***/
 
 
 /***Home***/
@@ -99,6 +90,10 @@ height: 400.08px;
     padding: 19px;
 }
 /***'Nous rencontrez'***/ 
+.fleur{
+    
+}
+
 .equipe{
     width: 100%;
     height: 554px;
@@ -134,17 +129,22 @@ span.wpcf7-spinner{
     margin:0;
 }
 /***'Nous rencontrez'/***/ 
+.nous{
+    background-image: url(http://planty.local/wp-content/uploads/2024/03/Group-2.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
 
-
-div.site-below-footer-wrap.ast-builder-grid-row-container.site-footer-focus-item.ast-builder-grid-row-full.ast-builder-grid-row-tablet-full .ast-builder-grid-row-mobile-full.ast-footer-row-inline.ast-footer-row-tablet-stack.ast-footer-row-mobile-stack{
-    margin: 0;
+.equipe{
+    background-image: url(http://planty.local/wp-content/uploads/2024/02/group-4.png),url(http://planty.local/wp-content/uploads/2024/02/rectangle-6.png);
+    background-position: center center, bottom right ;
+    background-repeat: no-repeat;
+    height: 554px; 
+    width: auto;
+    padding: 0 !important;
 }
 
 
-
-div.site-below-footer-wrap .ast-builder-grid-row-container .site-footer-focus-item .ast-builder-grid-row-full .ast-builder-grid-row-tablet-full .ast-builder-grid-row-mobile-full .ast-footer-row-inline .ast-footer-row-tablet-stack .ast-footer-row-mobile-stack{
-    margin: 0;
-}
 
 /***Commander***/
 
@@ -162,7 +162,7 @@ article.post-5616{
     display:flex;
     flex-direction: row;
     flex-wrap: nowrap ;
-    justify-content:center;
+    justify-content:space-evenly;
     align-items: center !important;
 }
 
@@ -181,13 +181,12 @@ article.post-5616{
     
 }
 
-.gout{
+.gout span{
     display: flex !important;
     padding:10px;
     align-content: center;
-    width: 192.533px
-
-    
+    justify-content: center;
+    width: 192.533px;   
 }
 
 .colonnes{
@@ -195,7 +194,20 @@ article.post-5616{
     flex-flow: wrap column;
     align-content: center;
     height: 447px;
+    margin: 0 !important;
 
+}
+
+.colonnes p{
+    margin:30px 45px 0 45px;
+}
+
+.colonnes h2{
+    margin-left: 45px;
+}
+
+.colonnes input{
+    height: 71px;
 }
 
 .informations{
@@ -212,4 +224,24 @@ article.post-5616{
     flex-direction: column;
     justify-content: flex-end;
     height: 447px;
+}
+
+.bouton {
+    display: flex;
+    justify-content: center;
+    padding:45px 0 93px 0 ;
+    margin: 0 !important;
+}
+
+.bloc {
+    /* Ajoute plusieurs images en arrière-plan */
+    background-image: url('image1.jpg'), url('image2.jpg'), url('image3.jpg');
+    
+    /* Définit la position de chaque image */
+    background-position: top left, center center, bottom right;
+    
+    /* Autres propriétés de style */
+    width: 500px; /* Définir une largeur par exemple */
+    height: 300px; /* Définir une hauteur par exemple */
+    /* Vous pouvez ajouter d'autres styles selon vos besoins */
 }
