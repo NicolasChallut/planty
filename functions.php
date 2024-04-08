@@ -27,12 +27,10 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
 function add_extra_item_to_nav_menu( $items, $args ) {
-    if (is_user_logged_in() && $args->menu == 303) {
-        $items .= '<li><a href="'. get_permalink( get_option('wp-admin/nav-menus') ) .'">Admin</a></li>';
+    if (is_user_logged_in() && $args->theme_location == 'primary') {
+        $items .= '<li><a href="'.get_admin_url() .'">Admin</a></li>';
     }
-    elseif (!is_user_logged_in() && $args->menu == 303) {
-        $items .= '<li><a href="' . get_permalink( wc_get_page_id( 'myaccount' ) ) . '"></a></li>';
-    }
+    
     return $items;
 }
 
