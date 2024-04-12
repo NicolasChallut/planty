@@ -14,12 +14,36 @@ Updated: 2024-02-01 11:07:01
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
 /* Import de la font syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
 
-@media screen and (max-width:880px)
+@media screen and (max-width:960px)
+{
+  .colonnes p{
+    margin:30px 30px 0 30px !important;
+  }  
+}
+
+@media screen and (max-width:921px) {
+
+    .ast-builder-grid-row{
+        margin:0 5px 0 20px;
+    }
+}
+
+@media screen and (max-width:900px)
+{
+    .nous h1{
+        max-width: 640px !important;
+    }
+}
+
+@media screen and (max-width:882px)
 /*tablet landscape*/
  {
+    .pictures h2{
+        font-size: 20px !important;
+    }
 
     .nous{
-
+        background-position: -1% 100% !important;
     }
 
     .colonnes{
@@ -42,14 +66,22 @@ Updated: 2024-02-01 11:07:01
    
 }
 
+@media screen and (max-width:820px){
+   .gouts{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+   } 
+
+   .votre{
+    text-align: center !important;
+   }
+}
+
 @media only screen and (max-width:781px)
 /*tablet & large smartphone*/ 
 {
-    .nous{
-        height: auto !important;
-        
-        width: auto !important;
-    }
+    
 
     .organigramme{
         width: auto !important;
@@ -92,9 +124,7 @@ Updated: 2024-02-01 11:07:01
         justify-content: center;
     }
 
-    .nous{
-        padding:0 !important;
-    }
+    
 
     .entete{
         font-size: medium !important;
@@ -102,6 +132,8 @@ Updated: 2024-02-01 11:07:01
 
     
 }
+
+
 
 /***Header***/
 #ast-hf-menu-2 a.menu-link{    
@@ -270,9 +302,7 @@ span.wpcf7-spinner{
     margin: 0 !important;
 }
 
-.nous h1{
-    max-width: 680px !important;
-}
+
 
 .organigramme{
     display: flex !important;
@@ -286,11 +316,11 @@ span.wpcf7-spinner{
     overflow: visible !important;
     background-image: url(http://planty.local/wp-content/uploads/2024/03/Group-16.png);
     background-size: 25%;
-    background-position: 0% 77%;
+    background-position: -5% 77%;
     display: flex;
     flex-direction:column;
     align-items: center;
-    width: 500px;
+    width: 460px;
     
 }
 
@@ -317,7 +347,7 @@ span.wpcf7-spinner{
 
 
 
-/***Commander***/
+/***Commandez***/
 
 .page-id-5616, .post-5616 {
     background-color:#3B8E46 !important;
@@ -328,11 +358,22 @@ article.post-5616{
     padding: 0px !important;
 }
 
+.votre{
+    max-width: 860px !important;
+}
+
+.wpcf7 {
+    max-width: 860px !important;
+}
+
+.separateur{
+    max-width: 860px !important;
+}
+
 .galerie{
     display:flex;
-    flex-direction: row;
-    flex-wrap: wrap ;
-    justify-content:space-evenly;
+    flex-flow: column wrap;
+    justify-content:space-between;
     align-items: center ;
 }
 
@@ -353,12 +394,14 @@ article.post-5616{
 
 .gouts{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
 
 }
 
 .gout p{
     width: 192.533px;
-    margin:0 30px 0 30px;
+
 }
 
 
@@ -370,11 +413,16 @@ article.post-5616{
     width: 192.533px !important;   
 }
 
+#colonnes{
+    max-width: 860px;
+}
+
 .colonnes{
     display: flex;
     flex-flow: nowrap row;
     justify-content: center;
     margin: 0 !important;
+    width: 100%;
 }
 
 .colonnes p{
